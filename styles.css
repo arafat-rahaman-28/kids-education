@@ -1,1 +1,24 @@
 @import "tailwindcss";
+.quicksand-font {
+    font-family: Quicksand;
+}
+.nav-links li {
+    font-weight: bold;
+    font-size: 20px;
+}
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+}
+.hamburger div {
+    width: 36px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+@media (width >= 64rem) {
+    .hamburger {
+        display: none;
+    }
+}

@@ -3,12 +3,50 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <link rel="stylesheet" href="styles.css" />
         <title>Kids Education</title>
     </head>
     <body>
-        <header></header>
+        <header class="quicksand-font">
+            <nav
+                class="flex justify-between items-center p-4 w-full mx-auto border-b-[1px] border-b-[#FEA301] lg:border-0 lg:max-w-[1280px] lg:my-0 lg:mx-auto"
+            >
+                <div class="logo lg:flex items-center">
+                    <img class="w-11 lg:w-16" src="assets/logo.png" alt="" />
+                    <h1
+                        class="hidden lg:block lg:text-[32px] lg:font-bold lg:ml-[11px]"
+                    >
+                        SCHOOL
+                    </h1>
+                </div>
+
+                <ul class="nav-links hidden lg:flex gap-8">
+                    <li class="text-[#FEA301]"><a href="">Home</a></li>
+                    <li class="text-[#01ACFD]"><a href="">About</a></li>
+                    <li class="text-[#05D4DF]"><a href="">Facilities</a></li>
+                    <li class="text-[#5D58EF]"><a href="">Admission</a></li>
+                </ul>
+
+                <button
+                    class="hidden lg:block px-[60px] py-[10px] bg-[#FEA301] text-white font-semibold text-xl rounded-xl"
+                >
+                    Contact
+                </button>
+
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </header>
         <main></main>
         <footer></footer>
     </body>
